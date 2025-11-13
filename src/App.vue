@@ -233,7 +233,7 @@ export default {
     const productos = ref([
       { 
         id: 1, 
-        nombre: 'Laptop HP', 
+        nombre: 'Pc HP', 
         precio: 3200000,
         imagen: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
       },
