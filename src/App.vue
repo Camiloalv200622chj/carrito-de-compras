@@ -1187,19 +1187,5 @@ export default {
   }
 }
 
-/* Ajustes para pantallas ultra anchas */
-@media (min-width: 1920px) {
-  .page-content {
-    max-width: 1600px;
-    margin: 0 auto;
-  }
-  
-  .product-card {
-    height: 380px;
-  }
-  
-  .product-image {
-    height: 200px;
-  }
-}
+
 </style>
