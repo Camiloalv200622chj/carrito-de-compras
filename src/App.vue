@@ -848,11 +848,7 @@ export default {
     padding: 16px 20px;
   }
 }
-/* ========================================
-   RESPONSIVIDAD MEJORADA
-   ======================================== */
 
-/* Tablets grandes y pantallas medianas (1024px - 1279px) */
 @media (max-width: 1279px) and (min-width: 1024px) {
   .products {
     flex: 0 0 60%;
@@ -873,7 +869,6 @@ export default {
   }
 }
 
-/* Tablets (768px - 1023px) */
 @media (max-width: 1023px) and (min-width: 768px) {
   .page-content {
     padding: 12px;
@@ -921,7 +916,6 @@ export default {
   }
 }
 
-/* Móviles grandes (600px - 767px) */
 @media (max-width: 767px) and (min-width: 600px) {
   .page-content {
     padding: 10px;
@@ -966,7 +960,6 @@ export default {
   }
 }
 
-/* Móviles pequeños (menor a 600px) */
 @media (max-width: 599px) {
   .app-root {
     overflow-y: auto;
@@ -994,7 +987,6 @@ export default {
     height: auto !important;
   }
   
-  /* Productos en móvil */
   .products {
     min-height: auto;
   }
@@ -1060,7 +1052,6 @@ export default {
     height: 38px;
   }
   
-  /* Carrito en móvil */
   .cart {
     min-height: auto;
     margin-bottom: 20px;
@@ -1106,14 +1097,12 @@ export default {
     font-size: 0.85rem;
   }
   
-  /* Empty state */
   .empty-state {
     padding: 40px 16px;
     height: auto;
     min-height: 200px;
   }
   
-  /* Header */
   .header .q-toolbar {
     min-height: 56px;
     padding: 0 12px;
@@ -1123,7 +1112,6 @@ export default {
     font-size: 1.1rem;
   }
   
-  /* Notificaciones */
   .notificacion-custom {
     min-width: 92%;
     max-width: 92%;
@@ -1143,7 +1131,6 @@ export default {
   }
 }
 
-/* Móviles muy pequeños (menor a 400px) */
 @media (max-width: 399px) {
   .product-image {
     height: 120px;
@@ -1172,7 +1159,6 @@ export default {
   }
 }
 
-/* Landscape en móviles */
 @media (max-height: 500px) and (orientation: landscape) {
   .product-image {
     height: 100px;
